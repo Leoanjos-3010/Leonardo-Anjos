@@ -1,0 +1,46 @@
+1. """Faça um programa que dado o valor da temperatura em graus FARENHEIT, calcular e escrever o valor da temperatura em graus CELSIUS."""
+
+Fahrenheit = int(input("Temperatura em fahrenheit: "))
+
+Celsius = (Fahrenheit - 32) * 5/9
+
+print (Celsius)
+
+2. """Elabore um programa para solicitar o nome de uma equipe de futebol, a quantidade de derrotas, empates e vitórias obtidas por ela no campeonato. No futebol,
+cada vitória vale três pontos e cada empate vale um ponto. Calcular e informar
+a quantidade de pontos ganhos, a quantidade de pontos perdidos e o percentual de aproveitamento da equipe."""
+
+3. """Faça um programa para solicitar o nome e as duas notas e um aluno. Calcular sua média e informá-la. Se ela for 
+inferior a 7, escrever "Reprovado”; caso contrário escrever "Aprovado"."""
+
+nome = str(input("Digite o nome do aluno:"))
+nota1 = int(input("Digite a primeira nota do aluno:"))
+nota2 = int(input("Digite a segunda nota do aluno:"))
+media = (nota1 + nota2) / 2
+print ("Média do aluno é:", media)
+if media < 7:
+    print("Aluno Reprovado.")
+
+else:
+    print ("Aluno Aprovado.")
+    
+4. """Faça um programa que leia dois números e mostre qual o maior dos dois. O programa deve informar caso sejam iguais."""
+
+n1 = int(input('Digite um numero:'))
+n2 = int(input('Digite outro numero'))
+
+if(n1 > n2):
+    print('O numero maior é', n1)
+if(n1 > n2):
+    print('O menor numero é', n1)
+
+if(n2 > n1):
+    print('O numero maior é', n2)
+if (n2 < n1):
+    print('O menor numero é', n2)
+
+if (n1 == n2):
+    print('Os numeros são iguais')
+
+5."""Crie um programa que leia a altura de 10 pessoas. Ao final o programa deve informar o total de pessoas cadastradas, a quantidade de pessoas com altura inferior a 1,60 metros; a quantidade de pessoas com altura entre 
+1,60 metros e 1,80 metros e a quantidade de pessoas com altura superior a 1,80 metros."""
